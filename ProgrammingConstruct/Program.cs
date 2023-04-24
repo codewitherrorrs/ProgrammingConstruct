@@ -19,9 +19,13 @@
                 program.AgeEligible();
                 Console.ReadKey();
             */
-            ProgrammingConstruct obj = new ProgrammingConstruct();
+           /* ProgrammingConstruct obj = new ProgrammingConstruct();
             obj.LargestOfThree();
             Console.ReadKey();
+           */
+           ProgrammingConstruct obj = new ProgrammingConstruct();
+           obj.AdmissionEligibility();
+           Console.ReadKey();
         }
     }
 }

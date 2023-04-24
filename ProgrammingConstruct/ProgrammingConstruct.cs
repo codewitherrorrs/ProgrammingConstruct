@@ -30,7 +30,6 @@ namespace ProgrammingConstruct
             else
                 Console.WriteLine("Odd Number");
         }
-
         //Age Candidates.
         public void AgeEligible()
         {
@@ -55,6 +54,24 @@ namespace ProgrammingConstruct
                 Console.WriteLine($"All Value are Equals");
             else
                 Console.WriteLine($"Third Value is greater : {thirdValue}");
+        }
+
+        //Admission Eligibility
+        public void AdmissionEligibility()
+        {
+            Console.WriteLine("Enter the Marks of Maths : ");
+            int maths = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the Marks of Physic : ");
+            int physic = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the Marks of Chemistry : ");
+            int chemistry = int.Parse(Console.ReadLine());
+            int total = maths + physic + chemistry;
+            if (total >= 180)
+                Console.WriteLine("You are Eligible for admission");
+            else if ((maths + chemistry) >= 140 || (maths + physic) >= 140)
+                Console.WriteLine("Also Eligible for admission");
+            else
+                Console.WriteLine("You are not Eligible for admission");
         }
 
     }
