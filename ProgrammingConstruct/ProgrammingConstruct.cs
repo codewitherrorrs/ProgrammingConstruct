@@ -134,5 +134,15 @@ namespace ProgrammingConstruct
                     break;
             }
         }
+        //Print a table.
+        public void TableOfTwo()
+        {
+            Console.WriteLine("Enter the Number : ");
+            int number = int.Parse(Console.ReadLine());
+            for(int i=1;i<number; i++)
+            {
+                Console.WriteLine($"The Table of 2 * {i} = {2 * i}");
+            }
+        }
     }
 }

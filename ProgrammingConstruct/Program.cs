@@ -7,7 +7,8 @@
              
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
             //programmingConstruct.AcceptInteger();
-            programmingconstruct.ArithmeticProblem();
+            //programmingconstruct.ArithmeticProblem();
+            programmingconstruct.TableOfTwo();
             Console.ReadKey();  
         }
     }
