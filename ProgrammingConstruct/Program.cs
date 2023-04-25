@@ -11,7 +11,8 @@
             //programmingconstruct.SumOfSquare();
             //programmingconstruct.Factorial();
             //programmingconstruct.FlipCoin();
-            programmingconstruct.ReverseString();
+            //programmingconstruct.ReverseString();
+            programmingconstruct.NaturalNumber();
             Console.ReadKey();  
         }
     }
