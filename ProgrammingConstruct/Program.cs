@@ -10,7 +10,8 @@
             //programmingconstruct.TableOfTwo();
             //programmingconstruct.SumOfSquare();
             //programmingconstruct.Factorial();
-            programmingconstruct.FlipCoin();
+            //programmingconstruct.FlipCoin();
+            programmingconstruct.ReverseString();
             Console.ReadKey();  
         }
     }

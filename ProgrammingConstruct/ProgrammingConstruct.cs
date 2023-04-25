@@ -194,5 +194,15 @@ namespace ProgrammingConstruct
                     Console.WriteLine($"Its Tail");
             }    
         }
+        //Reverse Given String
+        public void ReverseString()
+        {
+            Console.WriteLine("Enter the string");
+            string userstring = Console.ReadLine();
+            int length = userstring.Length;
+            char[] character = userstring.ToCharArray();
+            for(int p=length-1; p>=0; p--) 
+                Console.WriteLine($"{character[p]}");
+        }
     }
 }
