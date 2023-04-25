@@ -154,5 +154,45 @@ namespace ProgrammingConstruct
                 Console.WriteLine($"Sum of Square : {i * i}");
             }
         }
+        //Factorial
+        public void Factorial()
+        {
+            Console.WriteLine("Enter the number to find Factorial : ");
+            int value = int.Parse(Console.ReadLine());
+            int fact = 1;
+            int temp = value;
+            if (value == 0)
+            {
+                Console.WriteLine("Factoria of Zero is Zero");
+            }
+            else if(value < 0)
+            {
+                Console.WriteLine("Factorial of Negative Number is not Possible");
+            }
+            else
+            {
+                int i = 0;
+                while (i<value)
+                {
+                    fact = fact * value;
+                    value--;
+                }
+                Console.WriteLine($"Factorial of {temp} is {fact}");
+            }
+        }
+        //FlipCoin
+        public void FlipCoin()
+        {
+            int flipCoin = 1;
+            for (int i = 0; i < 20; i++)
+            {
+                Random random = new Random();
+                int value = random.Next(2);
+                if (flipCoin == value)
+                    Console.WriteLine($"It's Head");
+                else
+                    Console.WriteLine($"Its Tail");
+            }    
+        }
     }
 }
