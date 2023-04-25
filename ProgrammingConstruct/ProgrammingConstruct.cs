@@ -73,6 +73,39 @@ namespace ProgrammingConstruct
             else
                 Console.WriteLine("You are not Eligible for admission");
         }
+        //SwitchCase Week Day 
+        public void CalculateWeekDay()
+        {
+            Console.WriteLine("Enter the WeekDay");
+            int weekday = int.Parse(Console.ReadLine());
+            switch(weekday)
+            {
+                case 1:
+                    Console.WriteLine("Today is Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Today is Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Today is Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Today is Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Today is Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Today is Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Today is Sunday");
+                    break;
+                default:
+                    Console.WriteLine("Invalid Day");
+                    break;
+            }
+        }
 
     }
 }

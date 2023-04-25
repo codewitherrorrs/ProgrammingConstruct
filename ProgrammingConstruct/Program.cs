@@ -23,9 +23,13 @@
             obj.LargestOfThree();
             Console.ReadKey();
            */
-           ProgrammingConstruct obj = new ProgrammingConstruct();
+         /*  ProgrammingConstruct obj = new ProgrammingConstruct();
            obj.AdmissionEligibility();
            Console.ReadKey();
+         */
+            ProgrammingConstruct obj = new ProgrammingConstruct();
+            obj.CalculateWeekDay();
+            Console.ReadKey();
         }
     }
 }
