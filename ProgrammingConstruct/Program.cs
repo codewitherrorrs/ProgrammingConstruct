@@ -8,7 +8,8 @@
             ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
             //programmingConstruct.AcceptInteger();
             //programmingconstruct.ArithmeticProblem();
-            programmingconstruct.TableOfTwo();
+            //programmingconstruct.TableOfTwo();
+            programmingconstruct.SumOfSquare();
             Console.ReadKey();  
         }
     }

@@ -144,5 +144,15 @@ namespace ProgrammingConstruct
                 Console.WriteLine($"The Table of 2 * {i} = {2 * i}");
             }
         }
+        //Sum Of Square of n.
+        public void SumOfSquare()
+        {
+            Console.WriteLine("Enter the Number : ");
+            int number = int.Parse(Console.ReadLine());
+            for(int i = 1; i <= number; i++)
+            {
+                Console.WriteLine($"Sum of Square : {i * i}");
+            }
+        }
     }
 }
