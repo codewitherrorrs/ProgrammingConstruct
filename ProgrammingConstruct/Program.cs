@@ -4,32 +4,11 @@
     {
         public static void Main(string[] args) 
         {
-            /*  
-                ProgrammingConstruct programmingConstruct = new ProgrammingConstruct();
-                programmingConstruct.AcceptInteger();
-                Console.ReadKey();
-            */
-            /*    
-                ProgrammingConstruct programming = new ProgrammingConstruct();
-                programming.EvenOdd();
-                Console.ReadKey();
-            */
-            /*
-                ProgrammingConstruct program = new ProgrammingConstruct();
-                program.AgeEligible();
-                Console.ReadKey();
-            */
-           /* ProgrammingConstruct obj = new ProgrammingConstruct();
-            obj.LargestOfThree();
-            Console.ReadKey();
-           */
-         /*  ProgrammingConstruct obj = new ProgrammingConstruct();
-           obj.AdmissionEligibility();
-           Console.ReadKey();
-         */
-            ProgrammingConstruct obj = new ProgrammingConstruct();
-            obj.CalculateWeekDay();
-            Console.ReadKey();
+             
+            ProgrammingConstruct programmingconstruct = new ProgrammingConstruct();
+            //programmingConstruct.AcceptInteger();
+            programmingconstruct.ArithmeticProblem();
+            Console.ReadKey();  
         }
     }
 }

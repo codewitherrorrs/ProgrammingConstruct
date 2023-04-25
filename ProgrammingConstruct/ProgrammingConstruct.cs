@@ -106,6 +106,33 @@ namespace ProgrammingConstruct
                     break;
             }
         }
-
+        //Arithmetic Problem
+        public void ArithmeticProblem()
+        {
+            Console.WriteLine("Enter the Two Value : ");
+            int firstvalue = int.Parse(Console.ReadLine());
+            int secondValue = int.Parse(Console.ReadLine());
+            Console.WriteLine("Choose Number for Doing Operation");
+            Console.WriteLine("Press 1 for Addition , 2 for Substraction , 3 for Multiplication , 4 for division ");
+            int option = int.Parse(Console.ReadLine());
+            switch(option)
+            {
+                case 1:
+                    Console.WriteLine($"Addition of Two Integer : {firstvalue + secondValue}");
+                    break;
+                case 2:
+                    Console.WriteLine($"Substraction of Two Integer : {firstvalue - secondValue}");
+                    break;
+                case 3:
+                    Console.WriteLine($"Multiplication of Two Integer : {firstvalue * secondValue}");
+                    break;
+                case 4:
+                    Console.WriteLine($"Division of Two Integer : {firstvalue / secondValue}");
+                    break;
+                default:
+                    Console.WriteLine("Invalid Option");
+                    break;
+            }
+        }
     }
 }
